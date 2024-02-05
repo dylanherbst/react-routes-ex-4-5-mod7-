@@ -2,7 +2,7 @@
 
 import { useContext } from 'react'
 import { NavLink } from 'react-router-dom'
-import { ThemeContext } from '../CONTEXT FOLDER/theme context';
+
 
 export default function NavBar() {
 // const {theme} = useContext(ThemeContext);
