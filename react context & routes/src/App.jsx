@@ -12,6 +12,7 @@ import NavBar from './COMPONENTS FOLDER/NavBar'
 import { UserProvider } from './CONTEXT FOLDER/userContext'
 import { tealTheme } from '../THEME/theme'
 import { ThemeProvider } from '@mui/material'
+import ResponsiveAppBar from './COMPONENTS FOLDER/App bar'
 
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
   return (
     <>
     <ThemeProvider theme={tealTheme}>
+      <ResponsiveAppBar></ResponsiveAppBar>
     <UserProvider>
     <NavBar></NavBar>
 <AppRoutes></AppRoutes>
